@@ -1,16 +1,31 @@
 
+body{
+    font-family: "Open Sans", sans-serif;
+}
 header {
     height: 100px;
-    border: 1px solid;
-    color: #000;
+    border-bottom: 1px solid #000;
     margin-bottom: 40px;
 }
  h1 {
-    font-family: "Open Sans", sans-serif;
+
     text-transform: uppercase;
     margin-bottom: 0;
-    text-align: center;
+   
 }
+section {
+    margin: 0 auto;
+    display: block;
+    max-width: 1024px;
+    width: 100%;
+  }
+  .card {
+    display: inline-block;
+    margin: 10px;
+    border: 1px solid #000;
+    vertical-align: top;
+    max-height: 100%;
+  }
 .card img{
     display: block;
     width: 300px;
@@ -27,10 +42,10 @@ header {
     font-size: 18px;
     padding: 10px;
 }
-.card p{
+.card details p{
     padding:  0 10px;
 }
-.card q{
+.card details q{
     color: #777;
     font-style: italic;
 }

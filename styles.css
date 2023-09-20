@@ -1,5 +1,9 @@
 body{
     font-family: Open Sans, sans-serif;
+    color: floralwhite;
+    background-color: blueviolet;
+    text-align: center; 
+
 }
 header {
     height: 100px;
@@ -10,6 +14,7 @@ h1 {
 
     text-transform: uppercase;
     margin-bottom: 0;
+    font-size: 45px;
    
 }
 section {
@@ -21,13 +26,25 @@ section {
 .card {
     display: inline-block;
     margin: 10px;
-    border: 1px solid #000;
+    border: 3px solid #21051a;
     vertical-align: top;
     }
+.card:hover{
+    background-color: #4CAF50; /* Green */
+    color: white;
+    cursor:pointer;
+
+}
 .card img{
     display: block;
     width: 300px;
     height: 300px;
+
+}
+.card img:hover{
+    background-color: #4CAF50; /* Green */
+    color: white;
+    cursor:pointer;
 
 }
 .card details{
@@ -39,15 +56,37 @@ section {
 .card details summary{
     font-size: 18px;
     padding: 10px;
+    color: #adf6b7;
+    font-weight: bolder;
   
 }
 .card details p{
     padding:  0 10px;
 }
 .card details blockquote{
-    color: #777;
+    color: #e8b2d0;
     font-style: italic;
 }
+.card details button {
+    background-color: #adf6b7 ; /* Green */
+    border: none;
+    word-wrap:break-word;
+    color: blueviolet;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    
+    border-radius: 22px;
+    transition-duration: 0.4s;
+    font-weight: bolder;
+}
+  .card details button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    cursor:pointer;
+  }
 @media (max-width: 768px) {
    
     header {
@@ -80,4 +119,24 @@ section {
     .card details p{
        font-size: 14px;
     }
+    .card details button {
+        background-color: #adf6b7 ; /* Green */
+        border: none;
+        word-wrap:break-word;
+        color: blueviolet;
+        padding: 10px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 13px;
+        font-weight: bolder;
+        border: 1px solid green;
+        border-radius: 22px;
+        transition-duration: 0.4s;
+      }
+      .card details button:hover {
+        background-color: #4CAF50; /* Green */
+        color: white;
+        cursor:pointer;
+      }
 }

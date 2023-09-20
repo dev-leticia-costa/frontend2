@@ -1,7 +1,7 @@
 body{
     font-family: Open Sans, sans-serif;
     color: floralwhite;
-    background-color: blueviolet;
+    background-color:#b969b8;
     text-align: center; 
 
 }
@@ -26,11 +26,11 @@ section {
 .card {
     display: inline-block;
     margin: 10px;
-    border: 3px solid #21051a;
+    border: 3px solid #23111e;
     vertical-align: top;
     }
 .card:hover{
-    background-color: #4CAF50; /* Green */
+    background-color: #732472; /* Green */
     color: white;
     cursor:pointer;
 
@@ -39,14 +39,17 @@ section {
     display: block;
     width: 300px;
     height: 300px;
+    opacity: 1;
 
 }
 .card img:hover{
     background-color: #4CAF50; /* Green */
     color: white;
     cursor:pointer;
+    opacity: 0;
 
 }
+
 .card details{
     display: inline-block;
     width: 300px;
@@ -64,7 +67,7 @@ section {
     padding:  0 10px;
 }
 .card details blockquote{
-    color: #e8b2d0;
+    color: #f8c3f8;
     font-style: italic;
 }
 .card details button {

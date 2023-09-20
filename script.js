@@ -97,7 +97,10 @@ function carregaDicionario(){
         };
       
     for(var bio in mostrarBio){
-    console.log(bio += 
+        content.innerHTML +=
+        '<div class = "card">'+
+        '<img src='
+       (bio += 
         mostrarBio[bio].nome + 
         mostrarBio[bio].descricao +
         mostrarBio[bio].citacao 
